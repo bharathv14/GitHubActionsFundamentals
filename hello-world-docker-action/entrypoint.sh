@@ -4,4 +4,4 @@ echo "hello $1"
 
 echo "time=$(date)" >> $GITHUB_OUTPUT
 
-docker ps -a
+sh "docker ps -a"
