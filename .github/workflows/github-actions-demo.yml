@@ -33,7 +33,7 @@ jobs:
     environment:
       name: PPR
       url: https://writeabout.net
-    if: github.event.inputs.environment == 'Production'
+    if: github.event.inputs.environment == 'PPR'
     steps:
       - run: |
           echo "🚀 Step 1..."
